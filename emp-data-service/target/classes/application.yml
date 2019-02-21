@@ -1,0 +1,11 @@
+server:
+  port: 8383
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/springdb?useSSL=false
+    username: root
+    password: root
+    name: myds
+  jpa:
+    show-sql: true
